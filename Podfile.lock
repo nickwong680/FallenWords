@@ -1,0 +1,34 @@
+PODS:
+  - AdMob (6.4.1)
+  - box2d (2.3.0)
+  - cocos2d (2.1-rc2)
+  - FlatUIKit (1.1)
+  - MagicalRecord (2.1)
+  - NSDate-Extensions (0.0.1)
+  - NSDate-TimeDifference (1.0.1)
+  - SVProgressHUD (0.9)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - AdMob
+  - box2d
+  - cocos2d
+  - FlatUIKit
+  - MagicalRecord
+  - NSDate-Extensions
+  - NSDate-TimeDifference
+  - SVProgressHUD
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  AdMob: 7232a19244b55b99b67a7e7f86ba4591ba917532
+  box2d: 8214af539447091d8e6f1ac9e06734daacefd4ac
+  cocos2d: 32f616ec53315008dfbff3d2f6cc064c44615ad8
+  FlatUIKit: 3b15b582ffcfa4e392bedc4d3c5461f9b11c1cc2
+  MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
+  NSDate-Extensions: b78c2b3f363acdcd7b5d2547a6bef6656cd8ff70
+  NSDate-TimeDifference: 751279f3ff18b8f0dd541dcc1a7bfbf63c9c0ffe
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+
+COCOAPODS: 0.20.1
