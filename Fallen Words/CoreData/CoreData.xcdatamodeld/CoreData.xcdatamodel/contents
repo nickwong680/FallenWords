@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Word" representedClassName="Word" syncable="YES">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="length" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="word" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WordGroup" representedClassName="WordGroup" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="words" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Word" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Word" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="WordGroup" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>
